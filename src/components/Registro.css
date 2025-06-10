@@ -1,0 +1,82 @@
+.registro-container {
+  max-width: 400px;
+  margin: 90px auto;
+  padding: 2.5em 2em;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 8px 32px rgba(60, 90, 130, 0.10);
+  font-family: 'Poppins', sans-serif;
+}
+
+.registro-title {
+  text-align: center;
+  margin-bottom: 1.7em;
+  font-size: 2em;
+  color: #28a745;
+  font-weight: 600;
+}
+
+.registro-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1em;
+}
+
+.registro-input {
+  padding: 12px;
+  border: 1px solid #c3dafe;
+  border-radius: 8px;
+  font-size: 1em;
+  background: #f7fbff;
+  transition: border 0.2s;
+}
+
+.registro-input:focus {
+  border: 1.5px solid #28a745;
+  outline: none;
+  background: #eafbe7;
+}
+
+.registro-button {
+  padding: 14px 0;
+  background: linear-gradient(90deg, #28a745 60%, #43e97b 100%);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.08em;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(60, 90, 130, 0.07);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.registro-button:hover {
+  background: linear-gradient(90deg, #218838 60%, #38d67a 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.registro-mensaje {
+  margin-top: 1em;
+  color: #28a745;
+  text-align: center;
+  font-weight: 500;
+}
+
+.registro-link {
+  margin-top: 1.2em;
+  text-align: center;
+  color: #28a745;
+  font-size: 1em;
+  transition: color 0.2s;
+}
+
+.registro-link a {
+  color: #28a745;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.registro-link a:hover {
+  color: #218838;
+  text-decoration: underline;
+}

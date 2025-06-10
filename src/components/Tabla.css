@@ -1,0 +1,55 @@
+/* Ejemplo: src/components/Tabla.css */
+.tabla-listado {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(60, 90, 130, 0.08);
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2em;
+}
+
+.tabla-listado th,
+.tabla-listado td {
+    padding: 1em 1.2em;
+    text-align: left;
+}
+
+.tabla-listado th {
+    background: #f0f6ff;
+    color: #0077cc;
+    font-weight: 600;
+    font-size: 1.05em;
+    border-bottom: 2px solid #e3eafc;
+}
+
+.tabla-listado tr {
+    transition: background 0.2s;
+}
+
+.tabla-listado tr:nth-child(even) {
+    background: #f7fbff;
+}
+
+.tabla-listado tr:hover {
+    background: #eaf4ff;
+}
+
+.tabla-listado td {
+    color: #2c3e50;
+    font-size: 1em;
+    border-bottom: 1px solid #e3eafc;
+}
+
+.tabla-listado tr:last-child td {
+    border-bottom: none;
+}
+
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    color: #333;
+}
