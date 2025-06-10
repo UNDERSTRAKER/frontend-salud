@@ -9,7 +9,7 @@ function Dashboard() {
 
   const handleLogout = () => {
     localStorage.removeItem("usuario");
-    window.location.href = "/login";
+    navigate("/login");
   };
 
   return (
